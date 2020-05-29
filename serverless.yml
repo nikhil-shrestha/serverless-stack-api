@@ -13,7 +13,7 @@ plugins:
 provider:
   name: aws
   runtime: nodejs12.x
-  stage: ${opt:stage, self:provider.stage}
+  stage: dev
   region: ap-south-1
 
   # These environment variables are made available to our functions
